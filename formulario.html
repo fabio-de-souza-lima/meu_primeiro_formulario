@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+    </head>
+    
+    <body>
+        
+        <h2><strog>Formulário</strog></h2>
+        <form action="destino.html" method="post">
+
+            <label for="nome">Nome completo</label>
+            <input type="text" name="nome" id="nome" size="30" maxlength="100" required>
+
+
+            <label for="Data de Nascimento"> Data de Nascimento</label>
+            <input type="date" name="Data de Nascimento" id="Data de Nascimento" size="10" maxlength="60" required>
+        
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" size="30" maxlength="30" required> 
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" size="30" maxlength="60" required>  
+
+            <label for="endereço">Endereço </label>
+            <input type="endereço" name="endereço" id="endereço" size="30" maxlength="60" required>
+
+            <label for="Numero">Numero </label>
+            <input type="numero" name="Numero" id="Numero" size="10" maxlength="60" required>
+
+            <label for="cidade">Cidade </label>
+            <input type="cidade" name="cidade" id="cidade" size="30" maxlength="60" required>
+            
+            <label for="cep">Cep</label>
+            <input type="cep"name="cep" id="cep" size="10" maxlength="60" required> 
+            
+        <div>
+            <label for="Senioridade"><strong>Senioridade</strong></label>
+            <select id="Senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+            </div>
+           
+          
+   
+        <div>
+            <br>
+            <label><strong>Conte um pouco a sua esperiência:</strong></label>
+            <textarea row="6" style="width: 30em" id="experiencia"nome="experiencia"></textarea>
+
+        </div>   
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+
+          
+
+        </form>
+
+        <script>
+            alert ('Seja Bem - Vindo! É muito importante você preencher este formulario para o seu novo emprego.')
+        </script>
+                                                                                  
+    </body>
+</html>
